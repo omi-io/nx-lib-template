@@ -1,11 +1,15 @@
 {
   "name": "@omi-io/example-lib",
+  "scopeCommitName": "@:example",
   "version": "0.0.1",
   "description": "Example TypeScript library — replace or remove when bootstrapping a new repo.",
   "license": "MIT",
   "type": "module",
   "private": true,
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "README.md"
